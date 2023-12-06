@@ -32,7 +32,7 @@ then
 fi
 )"
 
-declare FUZZ_TARGETS=("string_escape_fuzzer" "string_utilities_fuzzer")
+declare FUZZ_TARGETS=("commandlineflag_fuzzer" "string_escape_fuzzer" "string_utilities_fuzzer"")
 
 bazel build \
 	--verbose_failures \
